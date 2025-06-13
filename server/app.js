@@ -179,6 +179,10 @@ app.get('/customer/:username',async(req,res)=>{
         console.log(error);
     }
 });
+app.get('/', (req, res) => {
+  res.send('Bienvenue sur le backend du système bancaire');
+});
+
 
 
 
